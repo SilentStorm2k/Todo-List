@@ -6,19 +6,14 @@ export default class Todo {
         this.deadline = deadline;
         this.interest = interest;
     }
-    changeName (name) {
-        this.name = name;
-    }
-    changeDesc (desc) {
-        this.desc = desc;
-    }
-    changePrio (prio) {
-        this.prio = prio;
-    }
-    changeDeadline (deadline) {
-        this.deadline = deadline;
-    }
-    changeInterest (interest) {
-        this.interest = interest;
-    }
+    get name ()     { return this._name; }
+    get desc ()     { return this._desc; }
+    get prio ()     { return this._prio; }
+    get deadline () { return this._deadline; }
+    get interest () { return this._interest; }
+    set name (newName)          { this._name = newName; }
+    set desc (newDesc)          { this._desc = newDesc; }
+    set prio (newPrio)          { this._prio = newPrio; }
+    set deadline (newDeadline)  { this._deadline = newDeadline; }
+    set interest (newInterest)  { this._interest = newInterest; }
 }
