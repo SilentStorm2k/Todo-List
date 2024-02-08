@@ -5,9 +5,9 @@ export default class Project {
         this.name = name;
         this.todos = todos;
     }
-    changeProjectName (name) {
-        this.name = name;
-    }
+    get name ()         { return this._name; }
+    get todos ()        { return this._todos; }
+    set name (newName)  { this._name = newName; }
     addTodo (todo) {
         if (todo instanceof Todo)
             this.todos.push(todo);
