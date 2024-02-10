@@ -44,7 +44,7 @@ SOFTWARE. -->
 <br />
 <div align="center">
   <a href="https://github.com/SilentStorm2k/Todo-List">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/images/logo.svg" alt="Logo" width="80" height="80" style="background-color:#FFFFFF">
   </a>
 
 <h3 align="center">Todo List</h3>
@@ -221,7 +221,7 @@ Project Link: [https://github.com/SilentStorm2k/Todo-List](https://github.com/Si
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* []() Logo from <a href="https://www.svgrepo.com/svg/474665/check">SVG repo</a>
 * []()
 * []()
 
