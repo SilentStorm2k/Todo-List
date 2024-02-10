@@ -2,11 +2,31 @@
     --color-1: rgb(0,0,0);
     --color-2: rgb(0,0,0);
     --color-3: rgb(0,0,0);
-    --color-4: rgb(0,0,0);
+    --color-4: rgb(210,130,140);
 }
 
 html, body {
     height: 100%;
     box-sizing: border-box;
     margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--color-4);
+}
+
+footer a {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: center / cover no-repeat url(../images/github-logo-light.png);
+    transition: transform .5s;
+}
+
+footer a:hover {
+    transform: scaleX(-1);
+    background-image: url(../images/github-logo-dark.png);
 }
